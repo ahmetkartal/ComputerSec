@@ -93,7 +93,6 @@ def packetsniffing(pkt):
 
 def capture():
     sniff(prn=packetsniffing, filter="tcp", store=0,count=50)
-    print("Snften çıktım")
 
 
 
